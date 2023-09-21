@@ -11,7 +11,7 @@
 		Input parameters in OPaL_One, Output parameters can be extracted from the MATLAB workspace
 
        	Inputs (OPaL_One):
-           size:       The number of elements (cells) in the domain (currently set at 46 um)
+           size:       The number of elements (cells) in the domain (currently set at 46 cells)
            nuc_wid:    The width of a cell's nucleus, this is used to
                        calculate domain lenght (currently set at 6 um)
            time:       The number of time steps (currently set at 10 steps)
@@ -74,3 +74,4 @@ ________________________________________________________________________________
            result_matrix_scattering: Average scattering expression fraction for every tested condition
            result_matrix_patterning: Average patterning expression fraction for every tested condition
            result_matrix_negative: Average negative expression fraction for every tested condition
+	   NOTE: The rows mark the threshold range while the columns mark the exponential decay constant range
